@@ -1,9 +1,6 @@
-.custom-search-form {
-		margin-top:250px;
-}
-
 #search_container{
-    margin-top:20%; 
+    margin-top:5%; 
+
 }
 .stylish-input-group .input-group-addon{
     background: white !important; 
@@ -17,4 +14,14 @@
     border:0;
     background:transparent;
 }
-
+.img-cls{
+	padding-top: 10px;
+	height: 40%;
+	width: 40%;
+}
+#outp{
+	padding-top: 30px;
+}
+.custom-search-form {
+		/*margin-top:250px;*/
+}
