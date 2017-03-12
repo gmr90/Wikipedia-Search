@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Local Weather</title>
+	<title>Wiki Search</title>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<!-- font awesome link-->
@@ -15,44 +15,47 @@
 <body>
 	
 	<div class="container text-center">
-		<div id="Weather"  >
-			<h1>Hello World </h1>	
-		</div>   
-		<div>
-			
-		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3">
 
-	<div class="container">
-	<div class="row">
-        <div class="col-sm-6 col-sm-offset-3">
-            <div id="search_container"> 
-                <div class="input-group stylish-input-group">
-                    <input type="text" class="form-control"  placeholder="Search" >
-                    <span class="input-group-addon">
-                        <button type="submit">
-                            <span class="glyphicon glyphicon-search"></span>
-                        </button>  
-                    </span>
-                </div>
-                <br>
-                <div class="input-group-btn">
-								<button class="btn btn-default" type="search">
+					<img src="images/wiki-img.png" class="img-cls" alt="wiki search image 	">
+					<h1>Wiki Search</h1>
+					<div id="search_container"> 
+						<div class="input-group stylish-input-group col-xs-12">
+							<input type="text" class="form-control" id="searchTerm"  placeholder="Search" >
+							<span class="input-group-addon">
+								<button type="submit">
+									<span class="glyphicon glyphicon-search"></span>
+								</button>  
+							</span>
+						</div>
+						<br>
+						<div class="input-group-btn" id="search">
+							<button class="btn btn-default" type="search">
 								Wiki Search
-								</button>
+							</button>
 						</div>
-						<div class="input-group-btn">
+						<div class="input-group-btn ">
+							<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
 								<button class="btn btn-default" type="search">
-								Wiki Random Search
+									Wiki Random Search
 								</button>
+							</a>
+						</div>	
+						<div id="outp">
+							<ul id="output">
+								
+							</ul>
 						</div>
-            </div>
-        </div>
-	</div>
-</div>	
+					</div>
+				</div>
+			</div>
+		</div>	
 		<!-- conatiner end -->
-	<script type="text/javascript" src=""></script>	
-	<footer class="navbar navbar-default navbar-fixed-bottom text-center ftr">
-		<h4>gmr90 &copy; 2017</h4>
-	</footer>
-</body>
-</html>
+		<script type="text/javascript" src="scripts/wikiscript.js"></script>	
+		<footer class="navbar navbar-default navbar-fixed-bottom text-center ftr">
+			<h4>gmr90 &copy; 2017</h4>
+		</footer>
+	</body>
+	</html>
